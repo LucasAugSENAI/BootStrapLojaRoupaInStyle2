@@ -1,0 +1,221 @@
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+
+.bi-person{
+    color: #fff;
+}
+
+/* From Uiverse.io by Praashoo7 */
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+}
+
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+    -13px -13px 100px #ffffff;
+}
+
+.btn{
+
+}
+
+textarea{
+    height: 200px;
+}
+
+.banners img{
+    border-radius: 10px;
+    height: 700px !important;
+    width: 1500px !important;
+}
+
+.icone{
+    color: red;
+}
+
+.icons{
+    flex-direction: column;
+}
+
+.Sobre{
+    height: 2450px;
+    left: 50px;
+    top: 750px;
+    box-shadow: #0c0c0c 20px 20px 10px;
+}
+
+.input input::placeholder{
+    color: white;
+}
+
+.iconepesquisa{
+    color: white;
+}
+
+.TituloSobre h1{
+    flex-direction: column;
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.TituloSobre{
+    gap: 100px;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.TextosSobre{
+    gap: 100px;
+}
+
+.logoSobre img{
+    width: 300px;
+    height: 300px;
+}
+
+.ImagemSobre img{
+    width: 400px;
+    height: 400px;
+}
+
+/*.textosp{*/
+/*    flex-direction: column;*/
+/*}*/
+
+.textosp p{
+    border-radius: 30px;
+    padding: 30px;
+    width: 700px;
+    background-color: #bab9b9;
+}
+
+.textosp{
+    gap: 50px;
+    flex-direction: row;
+}
+
+/*.textosp .p-sozinho p{*/
+/*    width: 1200px;*/
+/*}*/
+
+.BotaoSobre button{
+    margin-top: 100px;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #0c0c0c;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #0c0c0c;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0 #0c0c0c;
+}
+
+.BotaoSobre button:hover {
+    color: #ffffff;
+    box-shadow: inset 0 -100px 0 0 #0c0c0c;
+}
+
+.BotaoSobre button:active {
+    transform: scale(0.9);
+}
+
+.SobreLocalizacao h1{
+    font-size: 20px;
+}
+
+.SobreLocalizacao{
+    margin-top: 150px;
+    flex-direction: column;
+    margin-left: 350px;
+}
+
+.SobreLocalizacao i{
+    margin-left: 30px;
+}
+
+footer{
+    margin-top: 2400px;
+    margin-bottom: 50px;
+}
+
+.iconsRedes{
+    /*gap: 80px;*/
+}
+
+@media (max-width: 728px){
+
+    .Icones{
+        gap: 100px;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .Sobre{
+        height: 2700px;
+        top: 500px;
+    }
+
+    .banners img{
+        border-radius: 10px;
+        height: 400px !important;
+        width: 728px !important;
+    }
+
+
+    .SobreLocalizacao iframe{
+        width: 500px;
+        height: 300px !important;
+        margin-top: 10px;
+        margin-right: 400px;
+    }
+
+    .SobreLocalizacao p{
+        margin-right: 300px;
+    }
+
+    .SobreLocalizacao{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .TituloSobre h1{
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    /*.Banner{*/
+    /*    width: 728px;*/
+    /*}*/
+
+    footer{
+        margin-top: 2800px;
+        width: 100%;
+    }
+
+    .Produtos{
+        padding: 0px;
+        width: 100%;
+    }
+}

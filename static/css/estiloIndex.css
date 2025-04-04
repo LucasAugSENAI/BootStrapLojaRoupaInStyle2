@@ -1,0 +1,312 @@
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+
+.btn-close{
+    color: #fff;
+}
+
+.bi-person{
+    color: #fff;
+}
+
+/* From Uiverse.io by Praashoo7 */
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+}
+
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+    -13px -13px 100px #ffffff;
+}
+
+.btn{
+
+}
+
+textarea{
+    height: 200px;
+}
+
+.banners img{
+    border-radius: 10px;
+    height: 700px !important;
+    width: 1500px !important;
+}
+
+.icone{
+    color: red;
+}
+
+.icons{
+    flex-direction: column;
+}
+
+.Sobre{
+    height: 1000px;
+    left: 50px;
+    top: 800px;
+    box-shadow: #0c0c0c 20px 20px 10px;
+}
+
+.input input::placeholder{
+    color: white;
+}
+
+.iconepesquisa{
+    color: white;
+}
+
+.TituloSobre h1{
+    /*width: 1000px;*/
+    margin-top: 100px;
+    /*margin-left: 300px;*/
+}
+
+.TituloSobre{
+    gap: 50px;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.TextosSobre{
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+.logoSobre img{
+    width: 200px;
+    height: 200px;
+}
+
+/*.textosp{*/
+/*    flex-direction: column;*/
+/*}*/
+
+.textosp p{
+    border-radius: 30px;
+    padding: 30px;
+    width: 700px;
+    background-color: #bab9b9;
+}
+
+
+/* From Uiverse.io by adamgiebl */
+.card-body button {
+    height: 60px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #0c0c0c;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #0c0c0c;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0 #0c0c0c;
+}
+
+.card-body button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #0c0c0c;
+}
+
+.card-body button:active {
+    transform: scale(0.9);
+}
+
+.BotaoProdutos a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.BotaoProdutos button{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #ffffff;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.BotaoProdutos button:hover {
+    color: #0c0c0c;
+    box-shadow: inset 0 -100px 0 0 #ffffff;
+}
+
+.BotaoProdutos button:active {
+    transform: scale(0.9);
+}
+
+.BotaoSobre button{
+    margin-top: 100px;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #0c0c0c;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #0c0c0c;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0 #0c0c0c;
+}
+
+.BotaoSobre button:hover {
+    color: #ffffff;
+    box-shadow: inset 0 -100px 0 0 #0c0c0c;
+}
+
+.BotaoSobre button:active {
+    transform: scale(0.9);
+}
+
+.BotaoOffCanva button{
+    margin-top: 30px;
+    height: 60px;
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #0c0c0c;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #0c0c0c;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0 #0c0c0c;
+}
+
+.BotaoOffCanva button:hover {
+    color: #ffffff;
+    box-shadow: inset 0 -100px 0 0 #0c0c0c;
+}
+
+.BotaoOffCanva button:active {
+    transform: scale(0.9);
+}
+
+.produto img{
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.produto{
+    border-radius: 50px;
+}
+
+.Produtos{
+    margin-top: 1000px;
+}
+
+.card-body {
+    flex-direction: column;
+}
+
+.card-body a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card-body a:hover{
+    color: #ffffff;
+}
+
+.cards-produtos{
+    margin-top: 80px;
+    gap: 100px;
+}
+
+.TituloProdutos{
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+.TituloProdutos img{
+    width: 160px;
+    height: 160px;
+}
+
+.TituloProdutos h2{
+    color: white;
+    font-size: 50px;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.iconsRedes a{
+    /*gap: 200px;*/
+}
+
+@media (max-width: 728px){
+
+    body{
+        width: 100%;
+    }
+
+    .Sobre{
+        top: 500px;
+    }
+
+    .TituloSobre h1{
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    .banners img{
+        border-radius: 40px;
+        height: 400px !important;
+        width: 728px !important;
+    }
+
+    /*footer{*/
+    /*    margin-left: 100px;*/
+    /*    width: 100%;*/
+    /*}*/
+
+    /*.Produtos{*/
+    /*    padding: 0px;*/
+    /*    width: 1100px;*/
+    /*}*/
+}
